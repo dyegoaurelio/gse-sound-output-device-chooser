@@ -816,7 +816,14 @@
                               <object class="GtkTreeViewColumn" id="DeviceNicknameCollum">
                                 <property name="sizing">autosize</property>
                                 <property name="title" translatable="yes">Nickname</property>
+                                <child>
+                                  <object class="GtkCellRendererText" id="DeviceNicknameRenderer">
+                                    <property name="editable">True</property>
+                                    <property name="placeholder-text" translatable="yes">Set a Nickname</property>
+                                  </object>
+                                </child>
                               </object>
+
                             </child>   
                             <child>
                               <object class="GtkTreeViewColumn" id="DeviceTypeColumn">
