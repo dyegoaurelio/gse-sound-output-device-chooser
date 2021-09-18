@@ -813,6 +813,12 @@
                               </object>
                             </child>
                             <child>
+                              <object class="GtkTreeViewColumn" id="DeviceNicknameCollum">
+                                <property name="sizing">autosize</property>
+                                <property name="title" translatable="yes">Nickname</property>
+                              </object>
+                            </child>   
+                            <child>
                               <object class="GtkTreeViewColumn" id="DeviceTypeColumn">
                                 <property name="sizing">autosize</property>
                                 <property name="min-width">100</property>
